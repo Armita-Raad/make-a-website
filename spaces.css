@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: nunito;
+}
+body{
+    position: relative;
+    flex-wrap: wrap;
+}
+nav{
+    width: 100%;
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    padding: 1rem;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+    top: 0; 
+    background-color: white;
+    padding-bottom: 0;
+    z-index: 1;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+}
+.divider{
+    width: 95%;
+    height: 2px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+
+}
+nav section{
+    padding: 2rem;
+
+}
+a:hover{
+color: rgb(0, 0, 0, 0.5);
+}
+.divoone-shodam-saresh:hover{
+    opacity: 0.5;
+}
+nav img{
+    width: 90px;
+    display: flex;
+    justify-content: flex-start;
+    
+    border: 2px solid black;
+    border-radius: 10rem;
+    margin: -40px auto;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    margin-top: 1rem;
+}
+.half-devider{
+    width: 80%;
+    height: 2px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+.spaces{
+    width: 80%;
+    height: 20%;
+    position: relative;
+    margin: auto;
+    margin-bottom: 3rem ;
+    flex-wrap: wrap;
+    display: flex;
+}
+.pic{
+    box-sizing: content-box;
+    width: 40%;
+    height:20rem;
+    background-size: cover;
+    justify-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+     
+
+}
+.info{
+    
+    line-height: 3rem;
+    
+    width: 550px;
+    height: 20rem;
+    margin-left: 1rem;
+    flex-wrap: wrap;
+    
+    }
+    img p{
+        display: inlineb;
+    }
+    .map{
+        
+        border: solid balck 2px;
+        background-color: black;
+        width: 80px;
+        height: 40px;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        font-size: medium;
+    
+    }
+    .map:hover{
+        color: rgba(255, 255, 255, 0.5);
+    
+    }
+.logo{
+    width: 18px;
+    
+}
+.spaces p{
+    display: inline-block;
+    font-size: large;
+}
+
+#lala{
+    font-size: 16px;
+}
+
+
+
+.last h3{
+    display: inline-block;
+    font-size: larger;
+    font-weight: 900;
+}
+.last p{
+display: inline-block;
+font-size: medium;
+}
+.last{
+    width: 70rem;
+    border: solid 2px black;
+    margin: 2rem auto;
+    
+    padding: 2rem;
+    flex-wrap: wrap;
+    
+}
+.lolo{
+    margin-bottom: 1rem;
+}
+.last h2{
+    margin-bottom: 2rem;
+}
+footer{
+    background-color: black;
+    flex-direction: column;
+    color: white;
+    display: flex;
+    justify-content: center;
+   
+}
+footer img{
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+}
+.tel{
+    color: white;
+    font-size: small;
+    display: inline-block;
+    margin: 0 auto;
+}
+.tel:hover{
+    color: white;
+    opacity: 0.5;
+}
+.tel~p{
+    
+    font-size: small;
+    margin: 1rem auto;
+}
+.para{
+    margin: auto;
+}
+.complete{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

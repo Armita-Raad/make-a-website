@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: nunito;
+}
+body{
+    position: relative;
+    flex-wrap: wrap;
+}
+nav{
+    width: 100%;
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    padding: 1rem;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+    top: 0; 
+    background-color: white;
+    padding-bottom: 0;
+    z-index: 1;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+}
+.divider{
+    width: 95%;
+    height: 2px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+
+}
+nav section{
+    padding: 2rem;
+
+}
+a:hover{
+color: rgb(0, 0, 0, 0.5);
+}
+.divoone-shodam-saresh:hover{
+    opacity: 0.5;
+}
+nav img{
+    width: 90px;
+    display: flex;
+    justify-content: flex-start;
+    
+    border: 2px solid black;
+    border-radius: 10rem;
+    margin: -40px auto;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    margin-top: 1rem;
+}
+.half-devider{
+    width: 80%;
+    height: 2px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+table{
+   margin: auto;
+
+}
+.th{
+    min-width: 150px ;
+    height: 50px ;
+    border: 1px solid ;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 2rem;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 1rem;
+    
+}
+#breakfast{
+    margin-top: 0;
+}
+.ingredients{
+    color: rgb(91, 88, 88);
+    border-bottom: 1px solid black ;
+}
+td{
+    height: 30px;
+}
+.ingre{
+    border-bottom: solid black 1px;
+}
+
+footer{
+    background-color: black;
+    flex-direction: column;
+    color: white;
+    display: flex;
+    justify-content: center;
+   
+}
+footer img{
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+}
+.tel{
+    color: white;
+    font-size: small;
+    display: inline-block;
+    margin: 0 auto;
+}
+.tel:hover{
+    color: white;
+    opacity: 0.5;
+}
+.tel~p{
+    
+    font-size: small;
+    margin: 1rem auto;
+}
+.para{
+    margin: auto;
+}
+.space{
+    margin: 2rem;
+}

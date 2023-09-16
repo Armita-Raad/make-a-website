@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: nunito;
+}
+body{
+    
+    flex-wrap: wrap;
+}
+nav{
+    width: 100%;
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    top: 0; 
+    background-color: white;
+    padding-bottom: 0;
+    z-index: 1;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+}
+.divider{
+    width: 95%;
+    height: 2px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+}
+nav section{
+    padding: 2rem;
+
+}
+a:hover{
+color: rgb(0, 0, 0, 0.5);
+}
+nav img{
+    width: 90px;
+    display: flex;
+    justify-content: flex-start;
+    
+    border: 2px solid black;
+    border-radius: 10rem;
+    margin: -40px auto;
+}
+
+.half-devider{
+    width: 63.9rem;
+    height: 2px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 2rem;
+
+}
+.divoone-shodam-saresh:hover{
+    opacity: 0.5;
+}
+.first{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    
+}
+h2{
+    font-size: xx-large;
+    text-align: center;
+}
+.half-devider+p{
+    border-top: solid 2px black;
+    padding: 2rem;
+    box-sizing: content-box;
+    padding-bottom: 0;
+    
+}
+.first p{ 
+    
+    margin: 30px auto;
+    width: 80%;
+}
+p{
+    font-size: large;
+}
+footer{
+    background-color: black;
+    flex-direction: column;
+    color: white;
+    display: flex;
+    justify-content: center;
+   
+}
+footer img{
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+}
+.tel{
+    color: white;
+    font-size: small;
+    display: inline-block;
+    margin: 0 auto;
+}
+.tel:hover{
+    color: white;
+    opacity: 0.5;
+}
+.tel~p{
+    
+    font-size: small;
+    margin: 1rem auto;
+}
+.para{
+    margin: auto;
+}
+.second div{
+    margin-bottom: 2rem;
+}
+.para-2{
+
+    border-bottom: solid 2px black;
+    box-sizing: content-box;
+    padding: 2rem;
+    padding-top: 0;
+}
+.second{
+    width: 70%;
+    margin: auto;
+}
+.coffee{
+    background-color: black;
+    color: white;
+    width: 400px;
+    height: 900px;
+    border-radius: 1rem;
+    margin:2rem;
+    flex-wrap: wrap;
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+.coffee img{
+    width:400px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    height: 400px;
+    /* margin-bottom: -2rem; */
+}
+.coffee h3{
+    
+    width: 400px;
+    /* margin: auto; */
+    position: absolute;
+    top: 26rem;
+    min-height: 200px;
+    /* left: -0.25rem; */
+    font-size: x-large;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* height: 100px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    flex-wrap:wrap;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.coffee p{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 32rem;
+}
+.coffee a{
+    color: white;
+    font-size:medium ;
+    padding:5px 10px ; 
+    border-radius: 0.2rem;
+    position: absolute;
+    top: 54rem;
+    left: 0;
+}
+.coffee a:hover{
+    opacity: 0.5;
+   
+}
+.third{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.partners img{
+    width: 250px;
+    margin: 20px;
+    border: black solid;
+    padding: 20px;
+    
+}
+.fourth{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.gigi{
+    margin-bottom: -2.5rem;
+}
+.kiki{
+    
+    margin-bottom: -2.2rem;
+    
+}
+.co1{
+    margin-right: -2rem;
+}
+#kwc{
+    padding: 2rem 0;
+    box-sizing: content-box;
+}
+#arvinaj{
+    
+    box-sizing: content-box;
+    padding:11.5px 0;
+}
